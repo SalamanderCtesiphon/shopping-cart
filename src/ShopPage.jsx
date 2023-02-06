@@ -13,32 +13,32 @@ const ShopPage = () => {
         {
             id: 1,
             title: 'DoAndrioidsDreamOfElectricSheep',
-            image: <img src={bladerunner} alt="bladerunner" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={bladerunner} alt="bladerunner" style={{height: '20vh', width: '8vw'}}/>,
         },
         {
             id: 2,
             title: 'Schroedinger\'s Cat',
-            image: <img src={catbook} alt="schroedingers cat" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={catbook} alt="schroedingers cat" style={{height: '20vh', width: '8vw'}}/>,
         },
         {
             id: 3,
             title: 'Crime and punishment',
-            image: <img src={crimeandpunishment} alt="crime and punishment" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={crimeandpunishment} alt="crime and punishment" style={{height: '20vh', width: '8vw'}}/>,
         },
         {
             id: 4,
             title: 'Dragon Lance',
-            image: <img src={dragon} alt="dragon lance" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={dragon} alt="dragon lance" style={{height: '20vh', width: '8vw'}}/>,
         },
         {
             id: 5,
             title: 'Neuromancer',
-            image: <img src={neuromancer} alt="nueromancer" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={neuromancer} alt="nueromancer" style={{height: '20vh', width: '8vw'}}/>,
         },
         {
             id: 1,
             title: 'War and Peace',
-            image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '10vw'}}/>,
+            image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '8vw'}}/>,
         },
     ])
     return (
