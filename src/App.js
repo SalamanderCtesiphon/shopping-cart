@@ -5,8 +5,12 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1> Howdy partners</h1>
-      <Link to="ShopPage">Shop</Link>
+      <div className='navBar'>
+        <h1>Forgotten Lore Book Shop</h1>
+        <div className='btn'>
+          <Link to="ShopPage">Shop</Link>
+        </div>
+      </div>
     </div>
   );
 }
