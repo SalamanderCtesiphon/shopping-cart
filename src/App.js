@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <div className='navBar'>
-        <h1>Forgotten Lore Book Shop</h1>
+        <h1 className='title'>Forgotten Lore Book Shop</h1>
         <div className='btn'>
           <Link to="ShopPage">Shop</Link>
         </div>
