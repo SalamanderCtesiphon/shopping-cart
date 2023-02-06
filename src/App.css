@@ -40,3 +40,18 @@
   margin-left: 25vw;
 }
 
+.list {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.bookList {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid antiquewhite;
+  border-radius: 8px;
+  width: 60vw;
+}
+

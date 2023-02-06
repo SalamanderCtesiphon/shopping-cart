@@ -49,9 +49,11 @@ const ShopPage = () => {
                     <Link to="/">Home</Link>
                 </div>
             </div>
-            {books.map((book) => {
-                return (<div className="bookList">{book.image}</div>)
-            })}
+            <div className="list">
+                {books.map((book) => {
+                    return (<div className="bookList">{book.image}</div>)
+                })}
+            </div>
         </div>
     )
 };
