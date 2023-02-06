@@ -12,7 +12,7 @@ function App() {
         </div>
       </div>
       <div className='body'>
-        <img src={books} alt="bookstore"/>
+        <img className="coverPic" src={books} alt="bookstore"/>
       </div>
     </div>
   );

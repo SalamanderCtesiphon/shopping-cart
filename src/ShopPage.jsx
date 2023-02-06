@@ -1,13 +1,14 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
-import {bladerunner} from "./images/bladerunner.jpeg";
+import bladerunner from "./images/bladerunner.jpeg";
+import './App.css';
 
 const ShopPage = () => {
     const [books, setBooks] = useState([
         {
             id: 1,
             title: 'DoAndrioidsDreamOfElectricSheep',
-            image: <img src={bladerunner} alt="bladerunner"/>
+            image: <img src={bladerunner} alt="bladerunner" style={{height: '20vh', width: '10vw'}}/>,
         }
     ])
     return (
@@ -18,7 +19,9 @@ const ShopPage = () => {
                     <Link to="/">Home</Link>
                 </div>
             </div>
-            {books.image}
+            {books.map((book) => {
+                return (<div className="bookList">{book.image}</div>)
+            })}
         </div>
     )
 };
