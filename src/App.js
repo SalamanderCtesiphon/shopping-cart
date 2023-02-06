@@ -1,6 +1,6 @@
-
 import { Link } from 'react-router-dom';
 import './App.css';
+import books from "./images/books.jpg";
 
 function App() {
   return (
@@ -10,6 +10,9 @@ function App() {
         <div className='btn'>
           <Link to="ShopPage">Shop</Link>
         </div>
+      </div>
+      <div className='body'>
+        <img src={books}/>
       </div>
     </div>
   );
