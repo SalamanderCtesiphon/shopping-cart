@@ -28,7 +28,7 @@ const ShopPage = () => {
         {
             id: 4,
             title: 'Dragon Lance',
-            image: <img src={dragon} alt="dragon lance" style={{height: '20vh', width: '8vw', borderRadius: '8px', borderRadius: '8px'}}/>,
+            image: <img src={dragon} alt="dragon lance" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
         {
             id: 5,
@@ -41,6 +41,8 @@ const ShopPage = () => {
             image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
     ])
+
+
     return (
         <div className="page">
             <div className="navBar">
@@ -48,6 +50,7 @@ const ShopPage = () => {
                 <div className='btn'>
                     <Link to="/">Home</Link>
                 </div>
+                <div className="btn">Check out</div>
             </div>
             <div className="list">
                 {books.map((book) => {
