@@ -46,10 +46,10 @@ const ShopPage = () => {
     return (
         <div className="page">
             <div className="navBar">
-                    <h1 className='title'>Forgotten Lore Book Shop</h1>
-                <div className='btn'>
+            <div className='btn'>
                     <Link to="/">Home</Link>
                 </div>
+                    <h1 className='title'>Forgotten Lore Book Shop</h1>
                 <div className="btn">Check out</div>
             </div>
             <div className="list">
