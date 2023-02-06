@@ -30,6 +30,9 @@ img {
   padding: 10px;
   margin-right: 10vw;
   width: 6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .title {
