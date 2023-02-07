@@ -1,8 +1,13 @@
-const BookSubmitCard = () => {
+const BookSubmitCard = ({ book, setAddToCart}) => {
     return(
-        <div>
-            hi
-        </div>
+        <div 
+                className="bookList"
+            >{book.image}
+            <div 
+                className="btn"
+                onClick={() => setAddToCart(null)}
+            >Submit</div>
+            </div>
     );
 };
 

@@ -67,7 +67,10 @@ const ShopPage = () => {
                         return(
                         <li key={book.id}>
                             {book.id === addToCart ? (
-                                <BookSubmitCard />
+                                <BookSubmitCard 
+                                book={book}
+                                setAddToCart={setAddToCart}
+                                />
                             ) :
                             (
                                 <BookCard 
