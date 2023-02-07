@@ -37,7 +37,7 @@ const ShopPage = () => {
             image: <img src={neuromancer} alt="nueromancer" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
         {
-            id: 1,
+            id: 6,
             title: 'War and Peace',
             image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
@@ -57,6 +57,7 @@ const ShopPage = () => {
                 {books.map((book) => {
                     return (<BookCard 
                     book={book}
+                    key={book.id}
                     />)
                 })}
             </div>
