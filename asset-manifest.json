@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/shopping-cart/static/css/main.660c6c21.css",
+    "main.js": "/shopping-cart/static/js/main.6f6beab7.js",
+    "static/media/crimeandpunishment.jpeg": "/shopping-cart/static/media/crimeandpunishment.23d10532c9e655eac47b.jpeg",
+    "static/media/books.jpg": "/shopping-cart/static/media/books.e5f1736d02c162c23932.jpg",
+    "static/media/bladerunner.jpeg": "/shopping-cart/static/media/bladerunner.532b512870987168e452.jpeg",
+    "static/media/dragon.jpeg": "/shopping-cart/static/media/dragon.b6e389e9369124d61a01.jpeg",
+    "static/media/neuromancer.jpeg": "/shopping-cart/static/media/neuromancer.7d893e9a04eb8efb49cc.jpeg",
+    "static/media/catbook.jpeg": "/shopping-cart/static/media/catbook.f07b3f2848a9ffaac81f.jpeg",
+    "static/media/war_and_peace.jpeg": "/shopping-cart/static/media/war_and_peace.f9bfea962e2a5837f0da.jpeg",
+    "index.html": "/shopping-cart/index.html",
+    "main.660c6c21.css.map": "/shopping-cart/static/css/main.660c6c21.css.map",
+    "main.6f6beab7.js.map": "/shopping-cart/static/js/main.6f6beab7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.660c6c21.css",
+    "static/js/main.6f6beab7.js"
+  ]
+}
