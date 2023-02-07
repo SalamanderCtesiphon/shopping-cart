@@ -29,8 +29,9 @@
   border: 1px solid antiquewhite;
   border-radius: 8px;
   padding: 10px;
-  margin-right: 10vw;
+  margin-right: 1vw;
   width: 6vw;
+  height: 6vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,5 +54,8 @@
   border: 1px solid antiquewhite;
   border-radius: 8px;
   width: 60vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 

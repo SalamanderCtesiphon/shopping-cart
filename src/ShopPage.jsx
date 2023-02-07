@@ -42,6 +42,12 @@ const ShopPage = () => {
             image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
     ])
+    const [shoppinCart, setShoppingCart] = useState(['']);
+
+
+    function addItem() {
+        console.log('add');
+    }
 
 
     return (

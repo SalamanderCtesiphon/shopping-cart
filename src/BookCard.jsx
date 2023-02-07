@@ -4,6 +4,7 @@ const BookCard = ({ book }) => {
             <div 
                 className="bookList"
             >{book.image}
+            <div className="btn">add to cart</div>
             </div>
         </div>
     );
