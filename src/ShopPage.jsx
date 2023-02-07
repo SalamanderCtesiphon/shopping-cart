@@ -64,6 +64,7 @@ const ShopPage = () => {
                     return (<BookCard 
                     book={book}
                     key={book.id}
+                    addItem={addItem}
                     />)
                 })}
             </div>
