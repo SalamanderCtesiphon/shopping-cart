@@ -9,6 +9,7 @@ import neuromancer from "./images/neuromancer.jpeg";
 import warAndPeace from "./images/war_and_peace.jpeg";
 import './App.css';
 import BookSubmitCard from "./BookSubmitCard";
+import cart from "./images/icons8-shopping-cart-24.png";
 
 const ShopPage = () => {
     const [books, setBooks] = useState([
@@ -55,10 +56,11 @@ const ShopPage = () => {
     return (
         <div className="page">
             <div className="navBar">
-            <div className='btn'>
-                    <Link to="/">Home</Link>
-            </div>
+                <div className='btn'>
+                        <Link to="/">Home</Link>
+                </div>
                 <h1 className='title'>Forgotten Lore Book Shop</h1>
+                <img src={cart} alt="shoppin cart"></img>
                 <div className="btn">Check out</div>
             </div>
             <div className="list">
