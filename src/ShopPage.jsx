@@ -12,7 +12,7 @@ import BookSubmitCard from "./BookSubmitCard";
 import cart from "./images/icons8-shopping-cart-24.png";
 
 const ShopPage = () => {
-    const [books, setBooks] = useState([
+    const [books] = useState([
         {
             id: 1,
             title: 'DoAndrioidsDreamOfElectricSheep',
