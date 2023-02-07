@@ -1,4 +1,4 @@
-const BookCard = ({ book, addItem }) => {
+const BookCard = ({ book, setAddToCart}) => {
     return (
         <div>
             <div 
@@ -6,7 +6,7 @@ const BookCard = ({ book, addItem }) => {
             >{book.image}
             <div 
                 className="btn"
-                onClick={addItem}
+                onClick={() => setAddToCart(book.id)}
             >add to cart</div>
             </div>
         </div>

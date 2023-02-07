@@ -8,6 +8,7 @@ import dragon from "./images/dragon.jpeg";
 import neuromancer from "./images/neuromancer.jpeg";
 import warAndPeace from "./images/war_and_peace.jpeg";
 import './App.css';
+import BookSubmitCard from "./BookSubmitCard";
 
 const ShopPage = () => {
     const [books, setBooks] = useState([
@@ -61,13 +62,23 @@ const ShopPage = () => {
                 <div className="btn">Check out</div>
             </div>
             <div className="list">
-                {books.map((book) => {
-                    return (<BookCard 
-                    book={book}
-                    key={book.id}
-                    addItem={addItem}
-                    />)
-                })}
+                <ul>
+                    {books.map((book) => {
+                        return(
+                        <li key={book.id}>
+                            {book.id === addToCart ? (
+                                <BookSubmitCard />
+                            ) :
+                            (
+                                <BookCard 
+                                    book={book}
+                                    setAddToCart={setAddToCart}
+                                />
+                            )}
+                        </li>
+                        )
+                    })}
+                </ul>
             </div>
         </div>
     )
