@@ -1,15 +1,27 @@
-const BookSubmitCard = ({ book, setAddToCart}) => {
+const BookSubmitCard = ({ book, setAddToCart, setShoppingCart, shoppingCart, submitShoppingCart }) => {
     return(
-        <div 
-                className="bookList"
-            >{book.image}
-            <label>Quantity:</label>
-            <input type="number" name="quantity" id="quantity" min='0' step="1"></input>
+        <form onSubmit={submitShoppingCart}>
             <div 
-                className="btn"
-                onClick={() => setAddToCart(null)}
-            >Submit</div>
-            </div>
+                    className="bookList"
+                >{book.image}
+                <div>
+                    <label>Quantity:  </label>
+                    <input 
+                        type="number" 
+                        name="quantity" 
+                        id="quantity" 
+                        min='0' 
+                        step="1"
+                        value={shoppingCart}
+                        onChange={(e) => setShoppingCart(e.target.value)}
+                    ></input>
+                </div>
+                <div 
+                    className="btn"
+                    onClick={() => setAddToCart(null)}
+                >Submit</div>
+                </div>
+        </form>
     );
 };
 

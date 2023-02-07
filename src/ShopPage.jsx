@@ -44,12 +44,13 @@ const ShopPage = () => {
             image: <img src={warAndPeace} alt="war and peace" style={{height: '20vh', width: '8vw', borderRadius: '8px'}}/>,
         },
     ])
-    const [shoppinCart, setShoppingCart] = useState(['']);
+    const [shoppingCart, setShoppingCart] = useState(['']);
     const [addToCart, setAddToCart] = useState(null);
+    const quantity = 0;
 
-
-    function addItem() {
-        console.log('add');
+    function submitShoppingCart() {
+        shoppingCart= quantity;
+        return shoppingCart;
     }
 
 
@@ -60,7 +61,7 @@ const ShopPage = () => {
                         <Link to="/">Home</Link>
                 </div>
                 <h1 className='title'>Forgotten Lore Book Shop</h1>
-                <img src={cart} alt="shoppin cart"></img>
+                <img src={cart} alt="shoppin cart"></img>{shoppingCart}
                 <div className="btn">Check out</div>
             </div>
             <div className="list">
@@ -72,6 +73,9 @@ const ShopPage = () => {
                                 <BookSubmitCard 
                                 book={book}
                                 setAddToCart={setAddToCart}
+                                setShoppingCart={setShoppingCart}
+                                shoppingCart={shoppingCart}
+                                submitShoppingCart={submitShoppingCart}
                                 />
                             ) :
                             (
