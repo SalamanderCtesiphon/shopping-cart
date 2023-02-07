@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import BookCard from "./BookCard";
 import bladerunner from "./images/bladerunner.jpeg";
 import catbook from "./images/catbook.jpeg";
 import crimeandpunishment from "./images/crimeandpunishment.jpeg";
@@ -48,13 +49,15 @@ const ShopPage = () => {
             <div className="navBar">
             <div className='btn'>
                     <Link to="/">Home</Link>
-                </div>
-                    <h1 className='title'>Forgotten Lore Book Shop</h1>
+            </div>
+                <h1 className='title'>Forgotten Lore Book Shop</h1>
                 <div className="btn">Check out</div>
             </div>
             <div className="list">
                 {books.map((book) => {
-                    return (<div className="bookList">{book.image}</div>)
+                    return (<BookCard 
+                    book={book}
+                    />)
                 })}
             </div>
         </div>
