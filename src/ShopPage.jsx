@@ -43,6 +43,7 @@ const ShopPage = () => {
         },
     ])
     const [shoppinCart, setShoppingCart] = useState(['']);
+    const [addToCart, setAddToCart] = useState(null);
 
 
     function addItem() {
