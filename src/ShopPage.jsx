@@ -49,7 +49,7 @@ const ShopPage = () => {
     const quantity = 0;
 
     function submitShoppingCart() {
-        shoppingCart= quantity;
+         let shoppingCart= quantity;
         return shoppingCart;
     }
 
