@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/shopping-cart/static/css/main.660c6c21.css",
-    "main.js": "/shopping-cart/static/js/main.b87b35e2.js",
+    "main.js": "/shopping-cart/static/js/main.28e3d312.js",
     "static/media/crimeandpunishment.jpeg": "/shopping-cart/static/media/crimeandpunishment.23d10532c9e655eac47b.jpeg",
     "static/media/books.jpg": "/shopping-cart/static/media/books.e5f1736d02c162c23932.jpg",
     "static/media/bladerunner.jpeg": "/shopping-cart/static/media/bladerunner.532b512870987168e452.jpeg",
@@ -11,10 +11,10 @@
     "static/media/war_and_peace.jpeg": "/shopping-cart/static/media/war_and_peace.f9bfea962e2a5837f0da.jpeg",
     "index.html": "/shopping-cart/index.html",
     "main.660c6c21.css.map": "/shopping-cart/static/css/main.660c6c21.css.map",
-    "main.b87b35e2.js.map": "/shopping-cart/static/js/main.b87b35e2.js.map"
+    "main.28e3d312.js.map": "/shopping-cart/static/js/main.28e3d312.js.map"
   },
   "entrypoints": [
     "static/css/main.660c6c21.css",
-    "static/js/main.b87b35e2.js"
+    "static/js/main.28e3d312.js"
   ]
 }
