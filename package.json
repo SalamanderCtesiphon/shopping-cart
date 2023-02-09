@@ -1,6 +1,6 @@
 {
-  "homepage": "https://salamanderctesiphon.github.io/shopping-cart",
   "name": "shopping-cart",
+  "homepage": "https://salamanderctesiphon.github.io/shopping-cart",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
